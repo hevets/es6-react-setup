@@ -1,7 +1,7 @@
 module.exports = {
   entry: './main.js',
   output: {
-    path: './',
+    path: './build',
     filename: 'index.js' // bundled file
   },
   devServer: {
@@ -17,6 +17,10 @@ module.exports = {
         query: {
           presets: ['es2015', 'react']
         }
+      },
+      {
+        test: /\.scss$/,
+        loaders: ['style', 'css', 'sass']
       }
     ]
   }
