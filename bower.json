@@ -1,0 +1,22 @@
+{
+  "name": "es6-react-setup",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Steve Henderson <hevets@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/hevets/es6-react-setup",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
